@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+img {
+    width : 30%;
+    /* The no flexbox way of creating a grid like structure */
+    /* 30 + 30 + 30 = 90. So 10 left */
+    /* We need 6 parts of margin space (on both sides of 3 images) = 10/6 = 1.6666...% */
+    /* One way to do it by giving margin straight 1.66% */
+    /* margin : 1.666%; */
+    /* or by using calc() */
+    margin: calc(10%/6);
+}
+
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width : 30%;
+    margin-left: calc(10%/6);
+    padding: 0.5em 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}

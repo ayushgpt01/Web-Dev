@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+}
+.wrapper {
+    margin: 10px 20px;
+    padding: 5px;
+}
+.heading {
+    text-transform: capitalize;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    border-bottom: 1.2px solid;
+    margin: 10px 8px;
+    padding: 3.5px;
+}
+
+h1 {
+    text-align: center;
+}
