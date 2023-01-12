@@ -1,0 +1,38 @@
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.dice {
+    display: inline-block;
+
+}
+
+body {
+    font-family: "Pacifico",cursive;
+    text-align: center;
+    background-color: #393E46;
+}
+
+h1 {
+    margin: 30px;
+    font-size: 6rem;
+    color: #4ECCA3;
+    text-shadow: 6px 1px 2px rgba(35,41,49,1);
+    
+}
+
+img {
+    width: 80%;
+}
+
+p {
+    color: #4ECCA3;
+    font-size: 2rem;
+}
+
+footer {
+    color: white;
+    margin-top: 5%;
+}
+
