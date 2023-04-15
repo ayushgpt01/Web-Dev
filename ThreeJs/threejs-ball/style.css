@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  font-family: 'Chivo Mono', monospace;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+nav {
+  position: relative;
+  z-index: 2;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 8rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  font-size: 1.3rem; 
+}
+
+.title {
+  color: white;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-75%);
+  z-index: 2;
+  font-size: 3rem;
+}
