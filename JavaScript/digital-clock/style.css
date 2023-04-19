@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 16px;
+}
+
+.clock {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock h1 {
+  font-size: 5rem;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  font-size: 8rem;
+}
+
+.date {
+  font-size: 2.5rem;
+}
+
+.day {
+  font-size: 2.5rem;
+}

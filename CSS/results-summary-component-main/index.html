@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="result">
+        <div class="result-head">Your Result</div>
+        <div class="score-circle">
+          <div class="score">76</div>
+          of 100
+        </div>
+        <div class="score-title">Great</div>
+        <div class="result-body">
+          You scored higher than 65% of the people who have taken these tests.
+        </div>
+      </div>
+      <div class="summary">
+        <h2>Summary</h2>
+        <div class="score-container">
+          <div class="score-bar red">
+            <img src="./assets/images/icon-reaction.svg" />
+            <span> Reaction</span>
+            80 / 100
+          </div>
+          <div class="score-bar yellow">
+            <img src="./assets/images/icon-memory.svg" />
+            <span> Memory</span>
+            92 / 100
+          </div>
+          <div class="score-bar green">
+            <img src="./assets/images/icon-verbal.svg" />
+            <span> Verbal</span>
+            61 / 100
+          </div>
+          <div class="score-bar blue">
+            <img src="./assets/images/icon-visual.svg" />
+            <span> Visual</span>
+            72 / 100
+          </div>
+        </div>
+        <button>Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
